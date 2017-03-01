@@ -1,0 +1,91 @@
+.zhongxin{
+    width:100%;
+    height:100%;
+    margin-bottom:20px;
+    float:left
+}
+.crumbs{
+    height:40px;
+    width:100%;
+    line-height:40px;
+}
+.crumbs a{
+    display:inline-block
+}
+.crumbs a:last-child{
+    color:#000;
+}
+.zx-main{
+    width:100%;
+    float:left
+}
+.zx-left{
+    width:15%;
+    height:205px;
+    background:#fafafc;
+    float:left;
+}
+.zx-left dl{
+    padding:10px;
+    color:#666;
+}
+.zx-left dt{
+    font-size:15px;
+    font-weight:bold;
+    margin:20px 0;
+}
+.zx-left dd{
+    margin-left:20px;
+    height:30px;
+    line-height:30px;
+}
+.zx-left dd a:hover{
+    color:#00c3f5
+}
+.zx-right{
+    width:82%;
+    /*height:650px;*/
+    /*background:gray;*/
+    float:right;
+}
+.order-top{
+    height:40px;
+    line-height:40px;
+    width:100%;
+    border-bottom:1px solid #eee;
+    font-size:16px;
+}
+.order-top a{
+    display:inline-block;
+    margin:0 30px;
+}
+.order-top a:hover{
+    color:#00c3f5
+}
+
+.order-list{
+    margin-top:20px;
+}
+.order-list table{
+    border:1px solid #efefef;
+    margin-top:20px
+}
+.order-list td{
+    padding:20px 0;
+}
+
+.order-list img{
+    float:left;
+    margin:0 20px;
+    display:inline;
+}
+.order-list a{
+    display:inline;
+    line-height:22px;
+}
+.order-list a:hover{
+    color:#333
+}
+.left{
+    float:left;
+}

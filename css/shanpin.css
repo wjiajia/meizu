@@ -1,0 +1,159 @@
+.container{
+    width:100%;
+    border-top:1px solid #efefef;
+    padding-top:1px;
+}
+.crumbs{
+    height:40px;
+    width:100%;
+    line-height:40px;
+}
+.crumbs a{
+    display:inline-block
+}
+.crumbs a:last-child{
+    color:#000;
+}
+.row{
+    width:100%;
+    height:568px;
+    /*background:gray;*/
+}
+.row-left{
+    width:495px;
+    height:100%;
+    /*background:yellow;*/
+    float:left;
+}
+.row-left > img{
+    margin:25px 50px;
+}
+.row-thumb{
+    width:445px;
+    padding-left:50px;
+    height:91px;
+}
+
+.row-thumb a{
+    display:block;
+    float:left;
+    padding:4px;
+    border:1px solid #efefef;
+    margin-left:5px;
+}
+.row-right{
+    width:675px;
+    height:100%;
+    /*background:pink;*/
+    float:left;
+}
+.row-right h1{
+    font-weight:400;
+    margin-top:15px;
+}
+h1+p{
+    margin-top:5px;
+    color:#666;
+    font-size:16px;
+}
+.price{
+    height:55px;
+    width:100%;
+    margin-top:10px;
+    line-height:55px;
+    background:#f5f5f5;
+}
+.price span:first-child{
+    margin-left:10px;
+}
+.price span:last-child{
+    font-size:25px;
+    color:#f0415f;
+}
+.select-color{
+    width:675px;
+    height:50px;
+    margin:10px 0;
+    float:left;
+}
+.select-color li{
+    float:left;
+    width:89px;
+    height:40px;
+    line-height:40px;
+    margin-left:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+.select-color li a{
+    height:40px;
+    line-height:40px;
+}
+.select-color li img{
+    display:inline-block;
+    margin:4px;
+
+}
+.select-color li span{
+    display:inline-block;
+    height:40px;
+    position:relative;
+    top:-15px;
+    left:5px;
+}
+.select-color li:first-child{
+    border:none;
+}
+
+.row-property{
+    float:left;
+    width:675px;
+    height:50px;
+}
+.row-property li{
+    float:left;
+    height:25px;
+    line-height:25px;
+    margin-right:28px;
+}
+.row-property li i{
+    display:inline-block;
+    width:16px;
+    height:16px;
+    background:url('../img/icons.png') 0px -100px no-repeat;
+    margin-right:3px;
+    position:relative;
+    bottom:-3px;
+}
+.row-buy{
+    float:left;
+    padding:30px 10px;
+}
+.row-buy input{
+    height:20px;
+    width:40px;
+    margin-left:28px;
+}
+.row-buy a{
+    display:inline-block;
+    width:100px;
+    height:40px;
+    line-height:40px;
+    background:#2ac4f6;
+    color:white;
+    text-align:center;
+    font-size:14px;
+    border-radius:3px;
+    margin-left:20px;
+}
+.row-buy button{
+    border:none;
+    background:none;
+    outline:none;
+    color:white;
+    font-size:14px;
+    cursor:pointer
+}
+.row-buy a:hover{
+    background:#0894c1
+}

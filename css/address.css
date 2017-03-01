@@ -1,0 +1,152 @@
+.zhongxin{
+    width:100%;
+    height:100%;
+    margin-bottom:20px;
+    float:left
+}
+.crumbs{
+    height:40px;
+    width:100%;
+    line-height:40px;
+}
+.crumbs a{
+    display:inline-block
+}
+.crumbs a:last-child{
+    color:#000;
+}
+.zx-main{
+    width:100%;
+    float:left
+}
+.zx-left{
+    width:15%;
+    height:205px;
+    background:#fafafc;
+    float:left;
+}
+.zx-left dl{
+    padding:10px;
+    color:#666;
+}
+.zx-left dt{
+    font-size:15px;
+    font-weight:bold;
+    margin:20px 0;
+}
+.zx-left dd{
+    margin-left:20px;
+    height:30px;
+    line-height:30px;
+}
+.zx-left dd a:hover{
+    color:#00c3f5
+}
+.zx-right{
+    width:82%;
+    /*height:650px;*/
+    /*background:gray;*/
+    float:right;
+}
+h3{
+    margin:20px 0;
+}
+.myaddress{
+    border:1px solid #efefef;
+}
+.myaddress td{
+    height:35px;
+    line-height:35px;
+    padding-left:30px;
+    /*border-bottom:1px solid #efefef;*/
+}
+.myaddress a:hover{
+    color:#00c3f5;
+}
+
+.order-address-main{
+    margin-top:30px;
+    border:1px solid #efefef;
+    padding:20px;
+
+}
+.order-address-title span{
+    padding:22px 0;
+    font-size:22px;
+}
+.order-address-input{
+    height:38px;
+    line-height:38px;
+    width:100%;
+    margin:0 auto;
+}
+.order-address-input div{
+    display:inline-block;
+    height:38px;
+    line-height:38px;
+    width:158px;
+    border:1px solid #EFEFEF;
+    margin-right:20px;
+
+}
+.order-address-input span{
+    margin-right:20px;
+}
+.order-address-input input{
+    border:0;
+    height:36px;
+    width:148px;
+    padding:0 5px;
+}
+
+.order-address-detail{
+    width:100%;
+    margin:30px auto;
+
+}
+.order-address-detail div{
+    display:inline-block;
+    height:38px;
+    line-height:38px;
+    width:450px;
+    border:1px solid #EFEFEF;
+    margin-right:20px;
+
+}
+.order-address-detail input{
+    width:440px;
+    border:0;
+    height:36px;
+    padding:0 5px;
+}
+.order-address-detail span{
+    margin-right:20px;
+
+}
+
+.sub-input{
+    display:inline-block;
+    width:100px;
+    height:40px;
+    line-height:40px;
+    background:#2ac4f6;
+    color:white;
+    text-align:center;
+    font-size:14px;
+    border-radius:3px;
+    margin-left:100px;
+}
+.sub-input button{
+    border:none;
+    background:none;
+    outline:none;
+    color:white;
+    font-size:14px;
+    cursor:pointer
+}
+.sub-input:hover{
+    background:#0894c1
+}
+#add_form{
+    display:none;
+}
